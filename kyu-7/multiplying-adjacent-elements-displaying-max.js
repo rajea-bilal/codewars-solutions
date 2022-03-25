@@ -18,7 +18,7 @@
 // Test.assertEquals(adjacentElementsProduct([9, 5, 10, 2, 24, -1, -48]), 50);
 // Test.assertEquals(adjacentElementsProduct([5, 6, -4, 2, 3, 2, -23]), 30);
 // Test.assertEquals(adjacentElementsProduct([-23, 4, -5, 99, -27, 329, -2, 7, -921]), -14);
-// Test.assertEquals(adjacentElementsProduct([5, 1, 2, 3, 1, 4]), 6);
+
 
 function adjacentElementsProduct(array) {
     let loop = []
