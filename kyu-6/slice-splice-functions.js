@@ -21,6 +21,7 @@
 // tail([1,2,3,4,5]); => [2,3,4,5]
 
 // TODO: implement the four functions specified.
+// Create two functions
 
 function head(array) {
     return array[0];
