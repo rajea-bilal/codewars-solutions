@@ -25,4 +25,16 @@ function twoOldestAges(ages){
   
   console.log(twoOldestAges([1, 3, 10, 0]))
   
+//   Alternative solution
+
+function twoOldestAges(ages){
+  
+    let sorted = ages.sort((a, b) => a - b)
+    
+    let highest = sorted.slice(-2)
+    return highest
+     
+    }
+    
+    console.log(twoOldestAges([1, 5, 87, 45, 8, 8]))
   
