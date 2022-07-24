@@ -22,8 +22,3 @@ function sortByLength (array) {
   
   console.log(sortByLength(["Telescopes", "Glasses", "Eyes", "Monocles"]))
   
-  // PREP
-  // params - an array of strings
-  // Result - sorts the array from shortest to longest
-  // Example - 
-  // Pseudo -
