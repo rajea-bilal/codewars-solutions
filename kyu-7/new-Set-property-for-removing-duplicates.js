@@ -2,7 +2,6 @@
 
 // Given an array/list [] of n integers , find maximum triplet sum in the array Without duplications .
 
-// Notes :
 
 // Array/list size is at least 3 .
 
@@ -37,11 +36,11 @@ function maxTriSum(numbers){
  
     let remove = [...new Set(numbers)]
     
+    let sorted = removeDuplicate.sort((a, b) => a - b)  
+     let add = sorted.slice(-3).reduce((total, curr) => total + curr, 0)
+   return add
     
-      let sorted = removeDuplicate.sort((a, b) => a - b)  
-       let add = sorted.slice(-3).reduce((total, curr) => total + curr, 0)
-     return add
+}
     
-    }
      
-    console.log(maxTriSum([2,1,8,0,6,4,8,6,2,4]))
+console.log(maxTriSum([2,1,8,0,6,4,8,6,2,4,2,2]))
