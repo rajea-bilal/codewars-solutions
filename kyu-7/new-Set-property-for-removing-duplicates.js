@@ -36,7 +36,7 @@
 function maxTriSum(numbers){
  
     let remove = [...new Set(numbers)]
-    return remove
+    
     
       let sorted = removeDuplicate.sort((a, b) => a - b)  
        let add = sorted.slice(-3).reduce((total, curr) => total + curr, 0)
